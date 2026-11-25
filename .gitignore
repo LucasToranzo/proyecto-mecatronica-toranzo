@@ -1,0 +1,33 @@
+# ===== Credenciales (NUNCA subir) =====
+credenciales.h
+credenciales.py
+*.pem
+*.key
+.env
+
+# ===== Python =====
+__pycache__/
+*.pyc
+venv/
+.venv/
+historial_params/
+
+# ===== Arduino / ESP32 =====
+build/
+*.bin
+*.elf
+*.map
+
+# ===== CAD / Office: archivos temporales y de bloqueo =====
+~$*
+*.bak
+*.tmp
+*.SLDPRT.bak
+*.SLDASM.bak
+
+# ===== Sistema / editores =====
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
